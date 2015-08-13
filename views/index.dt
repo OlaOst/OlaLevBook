@@ -1,7 +1,12 @@
 extends layout
 
 block body
-  h1 Example page - Home
-  p Hello, World!
-  input
-  
+  form(action='login', method='post')
+    h1 Example page - Home
+    p Hello, World!
+    p Username
+      input(type='text', name='username') 
+    p Password
+      input(type='text', name='password') 
+    br
+    input(type='submit', name='login', value='Log in')
