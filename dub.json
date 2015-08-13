@@ -1,0 +1,10 @@
+{
+	"name": "olalevbook",
+	"description": "A simple vibe.d server application.",
+	"copyright": "Copyright © 2015, OlaOst",
+	"authors": ["OlaOst"],
+	"dependencies": {
+		"vibe-d": "~>0.7.24"
+	},
+	"versions": ["VibeDefaultMain"]
+}
