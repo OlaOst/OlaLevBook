@@ -12,5 +12,5 @@ shared static this()
 
 void hello(HTTPServerRequest req, HTTPServerResponse res)
 {
-	res.writeBody("Hello, World!");
+  res.render!("index.dt", req);
 }
